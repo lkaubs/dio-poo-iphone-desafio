@@ -12,8 +12,8 @@ classDiagram
         +atender()
         +iniciarCorreioVoz()
     }
-    <<Interface>>
-    class NavegadorInternet {
+    
+    class <<Interface>> NavegadorInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
