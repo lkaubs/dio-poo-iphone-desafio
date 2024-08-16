@@ -13,7 +13,7 @@ classDiagram
         +iniciarCorreioVoz()
     }
     
-    class <<Interface>> NavegadorInternet {
+    class NavegadorInternet {
         +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
